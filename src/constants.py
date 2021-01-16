@@ -4,6 +4,7 @@ import pygame as py
 import numpy
 py.init()
 # CONSTANTS
+BASE_PATH = '/home/seanwieser/Platformer'
 WIN_WIDTH = 1000  # Window Width
 WIN_HEIGHT = 700 # Window Height
 INV_WIN_HEIGHT = WIN_HEIGHT // 7
@@ -24,7 +25,7 @@ INV_FONT = py.font.SysFont('comicsans', 20, True)
 # --------------------LOADING ALL IMAGES----------------------
 def loadSpriteSet(action, path, kind, amount, size = (0,0)):
     answer = []
-    basePath = '/home/seanwieser/Platformer'+path
+    basePath = BASE_PATH+path
     for i in range(amount):
         string = action + str(i)
         if kind == 'pygame':  
