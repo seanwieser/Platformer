@@ -1,0 +1,33 @@
+Shooting
+	-bullet needs to start in right place
+	-need to figure out how different guns lead to different projectiles
+	-need images for bullets (make it variable for store)
+
+create inventory rectangle window at bottom of screen
+	-money
+
+create a save function
+	-writes a text file to store information
+		-current attributes (health, money, level, guns, ammo, armor)
+		-position in game (
+		-can only save in home base
+create enemy class
+	-hitboxes
+	-health bar above head
+	-movement both directions
+
+create animation for reload
+	-modify sprite set to display reloading
+	-implement modified sprite set
+	-implement shooting constraints correctly
+		-cant shoot while reloading
+		-different guns have different reload times (constrained to sprite cycle?)
+
+create a paused inventory window
+	-player can equip different armor/weapons/potions into inventory slots
+	-player can use potions while paused
+	-inventory is manipulated through keys (no mouse input)
+
+
+
+
